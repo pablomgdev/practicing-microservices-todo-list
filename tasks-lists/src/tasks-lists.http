@@ -1,0 +1,6 @@
+@tasks_lists_HostAddress = http://localhost:5294
+
+GET {{tasks_lists_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
