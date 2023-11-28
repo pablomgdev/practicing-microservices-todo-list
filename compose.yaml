@@ -6,11 +6,6 @@ services:
     container_name: tasks-microservice
     # depends_on:
     #   - db
-  tasks-lists:
-    build: tasks-lists/
-    ports:
-      - 5002:8080
-    container_name: tasks-lists-microservice
   users:
     build: users/
     ports:
